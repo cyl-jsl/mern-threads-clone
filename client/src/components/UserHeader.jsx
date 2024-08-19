@@ -12,7 +12,6 @@ import {
   useToast,
   VStack,
 } from "@chakra-ui/react";
-import React from "react";
 import { BsInstagram } from "react-icons/bs";
 import { CgMoreO } from "react-icons/cg";
 
