@@ -11,7 +11,7 @@ const UserPost = ({ likes, replies, postImg, postTitle }) => {
       <Flex gap={3} mb={4} py={5}>
         <Flex flexDirection={"column"} alignItems={"center"}>
           <Avatar size={"md"} name="Mark" src="/zuck-avatar.png" />
-          <Box w={1} h={"full"} bg={"gray.light"} my={2}></Box>
+          <Box w={"1px"} h={"full"} bg={"gray.light"} my={2}></Box>
           <Box position={"relative"} w={"full"}>
             <Avatar
               size={"xs"}
@@ -46,13 +46,13 @@ const UserPost = ({ likes, replies, postImg, postTitle }) => {
           <Flex justifyContent={"space-between"} w={"full"}>
             <Flex w={"full"} alignItems={"center"}>
               <Text flexShrink={"sm"} fontWeight={"bold"}>
-                markmarkmark
+                Mark
               </Text>
               <Image src="/verified.png" w={4} h={4} ml={1} />
             </Flex>
             <Flex gap={4} alignItems={"center"}>
               <Text fontSize={"sm"} color={"gray.light"}>
-                1D
+                1d
               </Text>
               <BsThreeDots />
             </Flex>
